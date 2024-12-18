@@ -3,6 +3,7 @@
 
 # Python environment
 venv
+.env
 
 
 #Database info

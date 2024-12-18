@@ -23,6 +23,7 @@ def update_vendor(vendor_id, vendor_name):
       conn.commit()
 
   except (psycopg2.DatabaseError, Exception) as error:
+    print("hello")
     print(error)
   
   finally:
